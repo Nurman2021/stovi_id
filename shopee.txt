@@ -5,3 +5,9 @@
 5. harga
 6. diskon
 7. photo utama
+
+
+
+url-ref:
+- https://minasaline.com
+- https://wekita.id/
