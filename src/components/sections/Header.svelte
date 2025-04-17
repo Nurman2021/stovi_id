@@ -27,7 +27,7 @@
 			class="absolute left-0 mt-48 hidden w-full flex-col items-center justify-center border-b border-gray-200 pb-8 md:relative md:mt-0 md:flex md:w-auto md:flex-row md:items-end md:justify-between md:border-none md:bg-transparent md:p-0"
 		>
 			<a
-				href="#feature"
+				href="#pricing"
 				class="fold-bold relative z-40 flex h-full w-full items-center gap-2 rounded bg-indigo-700 px-5 py-2 text-sm font-bold text-white shadow-md transition-all duration-300 hover:shadow-xl sm:w-full lg:bg-white lg:text-indigo-700 lg:shadow-none"
 			>
 				<ShoppingCart />
@@ -35,7 +35,7 @@
 			</a>
 			<!-- class="absolute top-0 right-1/2 -z-10 -mt-64 -ml-12 hidden w-screen min-w-6xl opacity-50 lg:block" -->
 
-			<img src="/img/floral-1.png" alt="header ilustration" class="" />
+			<img src="/img/floral-1.png" alt="header ilustration" class=" opacity-50" />
 		</div>
 	</div>
 </header>

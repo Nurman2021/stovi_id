@@ -16,8 +16,8 @@
 				market?
 			</p>
 			<a
-				href="#_"
-				class="fold-bold relative mx-auto mt-0 inline-block w-auto self-start rounded-md border-t border-gray-200 bg-indigo-600 px-8 py-4 text-base font-bold text-white shadow-xl sm:mt-1 lg:mx-0"
+				href="#pricing"
+				class="fold-bold relative mx-auto mt-0 inline-block w-auto self-start rounded-md border-t border-gray-200 bg-blue-600 px-8 py-4 text-base font-bold text-white shadow-xl sm:mt-1 lg:mx-0"
 				>Lihat Katalog</a
 			>
 			<!-- Integrates with section -->
