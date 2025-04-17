@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+@import '@fontsource/fira-mono';
+@plugin '@tailwindcss/typography';
+
+
+/* *{
+    border: solid blue 1px;
+} */

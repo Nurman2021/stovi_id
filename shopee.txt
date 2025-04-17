@@ -1,0 +1,7 @@
+1. photo
+2. deskripsi
+3. kata kunci
+4. fitur 4 
+5. harga
+6. diskon
+7. photo utama
