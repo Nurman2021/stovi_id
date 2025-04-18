@@ -82,22 +82,39 @@
 						role="region"
 					>
 						<div class="pb-2">
-							{item.content}
+							{@html item.content}
 						</div>
 					</div>
 				</div>
 			{/each}
 		</div>
 
-		<div class="grid w-full max-w-2xl grid-cols-2 grid-rows-2 gap-4">
-			<div class="flex items-center gap-2 text-2xl font-bold tracking-wider text-indigo-500/50">
+		<h2 class="my-5 text-base font-medium tracking-tight text-indigo-500 uppercase">
+			Add-Ons Layanan
+		</h2>
+		<p class="max-w-2xl text-center font-semibold text-black/70 italic">
+			Kami menawarkan layanan tambahan lain yang bisa menjadikan momen bahagia anda menjadi lebih
+			mudah & berkesan. Semua "disiapkan spesial untuk Anda".
+		</p>
+
+		<div>
+			<p>Custom Warna & Font</p>
+			<p>Request Tema</p>
+		</div>
+
+		<div class="mt-10 grid w-full max-w-2xl grid-cols-2 grid-rows-2 gap-4">
+			<div
+				class="flex items-center justify-center gap-2 text-2xl font-bold tracking-wider text-indigo-500/50"
+			>
 				<ThumbsUpIcon size={48} />JAMINAN <br /> KEPUASAN
 			</div>
-			<div class="flex items-center gap-2 text-2xl font-bold tracking-wider text-indigo-500/50">
+			<div
+				class="flex items-center justify-center gap-2 text-2xl font-bold tracking-wider text-indigo-500/50"
+			>
 				<MessageSquareLockIcon size={48} /> TRANSAKSI <br /> AMAN
 			</div>
 			<div
-				class="col-span-2 row-start-2 flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg px-5 py-3 tracking-wider text-pink-500 shadow-md"
+				class="col-span-2 row-start-2 flex w-full transform cursor-pointer items-center justify-center gap-2 rounded-lg px-5 py-3 tracking-wider text-pink-500 shadow-md transition duration-400 hover:-translate-y-1 hover:bg-pink-500 hover:text-white hover:shadow-xl"
 			>
 				<Whatsapp />
 				HUBUNGI KAMI VIA WHATSAPP

@@ -12,8 +12,8 @@
 				Undangan <span class="text-pink-500">Digital</span>
 			</h1>
 			<p class="mb-8 pr-0 text-base text-gray-600 sm:text-lg lg:pr-20 xl:text-xl">
-				Are you ready to start your adventure and start building the next greatest SAAS app on the
-				market?
+				Buat undangan digital berkesan untuk momen spesialmu – praktis, elegan, dan siap dibagikan
+				dalam hitungan menit!
 			</p>
 			<a
 				href="#pricing"

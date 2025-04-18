@@ -8,19 +8,33 @@
 
 	const faqItems = [
 		{
-			title: 'Apa itu Svelte?',
-			content:
-				'Svelte adalah framework front-end modern yang mengkompilasi kode Anda menjadi JavaScript vanilla yang sangat efisien.'
+			title: 'Pesan Undangan Digital',
+			content: `
+        <ol class="list-decimal pl-5 space-y-2">
+          <li>Pilih Tema undangan yang diinginkan. Untuk melihat demo, silahkan klik bagian katalog</li>
+          <li>Untuk melihat halaman tampilan demo, silahkan klik tombol “Lihat Demo”, dan catat nomor demo yang diinginkan.</li>
+          <li>Setelah memilih tema undangan, Anda bisa melakukan pemesanan dengan melakukan pemesanan dengan langsung melakukan klik pada tombol order.</li>
+          <li>Isi format yang disediakan, dan lakukan pembayaran sesuai dengan pilihan metode pembayaran yang ada.</li>
+        </ol>
+      `
 		},
 		{
-			title: 'Bagaimana cara menginstall Svelte?',
-			content:
-				"Anda bisa menginstall Svelte dengan menjalankan perintah 'npx degit sveltejs/template nama-projek' kemudian 'cd nama-projek' dan 'npm install'."
+			title: 'Proses Pengerjaan Orderan',
+			content: `
+        <ul class="list-disc pl-5 space-y-2">
+          <li>Silahkan lakukan pembayaran dengan jenis paket yang dipilih setelah undangan selesai dikerjakan dengan cara transfer via bank ke akun bank kami berikan.</li>
+          <li>Jaminan Proses pengerjaan <strong> Max 24 Jam </strong> dari masa order</li>
+        </ul>
+      `
 		},
 		{
-			title: 'Apa keunggulan Svelte?',
-			content:
-				'Svelte tidak menggunakan virtual DOM seperti React atau Vue, melainkan mengkompilasi kode Anda menjadi update DOM yang sangat efisien saat build time.'
+			title: 'Daftar Sumber Belajar',
+			content: `
+        <p class="pl-5 space-y-2">
+         Jika mengalami kesulitan dalam pemesanan jasa undangan digital kami, silahkan kontak kami melalui chat support whatsapp di: 0857-5121-2616
+        </p>
+        <p class="mt-4 pl-5"><strong>Kami akan dengan senang hati siap membantu Anda.</strong></p>
+      `
 		}
 	];
 </script>
