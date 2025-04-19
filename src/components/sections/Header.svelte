@@ -35,7 +35,11 @@
 			</a>
 			<!-- class="absolute top-0 right-1/2 -z-10 -mt-64 -ml-12 hidden w-screen min-w-6xl opacity-50 lg:block" -->
 
-			<img src="/img/floral-1.png" alt="header ilustration" class=" opacity-50" />
+			<img
+				src="/img/floral-1.png"
+				alt="header ilustration"
+				class="absolute top-0 -z-10 -mt-6 -ml-72 hidden w-screen min-w-3xl opacity-30 lg:block"
+			/>
 		</div>
 	</div>
 </header>

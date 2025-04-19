@@ -103,7 +103,7 @@
 			<img
 				src="/img/floral-2.png"
 				alt="hero ilustration"
-				class="absolute left-6 -z-10 mt-24 -ml-64 max-w-md opacity-40"
+				class="absolute left-6 -z-10 mt-24 -ml-64 max-w-md opacity-20"
 			/>
 		</div>
 		<div

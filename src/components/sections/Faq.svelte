@@ -35,11 +35,11 @@
 			Cara order undangan digital
 		</h2>
 		<h3
-			class="mt-2 w-full max-w-2xl px-5 text-center text-2xl leading-tight font-black text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0"
+			class="mt-2 w-full max-w-3xl px-5 text-center text-2xl leading-tight font-black text-gray-900 sm:mt-0 sm:px-0 sm:text-6xl md:px-0"
 		>
 			FAQ
 		</h3>
-		<div class="mt-2 w-full max-w-2xl overflow-hidden rounded-lg border border-gray-200">
+		<div class="mt-2 w-full max-w-3xl overflow-hidden rounded-lg border border-gray-200">
 			<!-- {#if multiple}
 				<div class="flex space-x-2 bg-gray-50 p-2">
 					<button
@@ -92,14 +92,24 @@
 		<h2 class="my-5 text-base font-medium tracking-tight text-indigo-500 uppercase">
 			Add-Ons Layanan
 		</h2>
-		<p class="max-w-2xl text-center font-semibold text-black/70 italic">
+		<p class="max-w-3xl text-center font-semibold text-black/70 italic">
 			Kami menawarkan layanan tambahan lain yang bisa menjadikan momen bahagia anda menjadi lebih
 			mudah & berkesan. Semua "disiapkan spesial untuk Anda".
 		</p>
 
-		<div>
-			<p>Custom Warna & Font</p>
-			<p>Request Tema</p>
+		<div class="mt-4 flex w-full max-w-3xl flex-col gap-3">
+			<div class="flex w-full items-center gap-1">
+				<strong class=" w-60">Custom Warna & Font</strong>
+				<div class="w-full border-b-2 border-dotted border-black"></div>
+				<p>Rp.45rb</p>
+			</div>
+			<p class=" text-sm">Perubahan desain untuk tampilan warna dan huruf pendukung</p>
+			<div class="flex w-full items-center gap-1">
+				<strong class=" w-36">Request Tema</strong>
+				<div class="w-full border-b-2 border-dotted border-black"></div>
+				<p>Rp.199rb</p>
+			</div>
+			<p class="text-sm">Bantu kamu buat undangan sesuai keinginan</p>
 		</div>
 
 		<div class="mt-10 grid w-full max-w-2xl grid-cols-2 grid-rows-2 gap-4">
