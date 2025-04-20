@@ -28,12 +28,11 @@
 		>
 			<a
 				href="#pricing"
-				class="fold-bold relative z-40 flex h-full w-full items-center gap-2 rounded bg-indigo-700 px-5 py-2 text-sm font-bold text-white shadow-md transition-all duration-300 hover:shadow-xl sm:w-full lg:bg-white lg:text-indigo-700 lg:shadow-none"
+				class="relative z-40 flex h-full w-full items-center gap-2 rounded border border-indigo-700 bg-transparent px-5 py-2 text-sm text-indigo-700 transition-all duration-300 hover:bg-indigo-700 hover:text-white hover:shadow-xl sm:w-full"
 			>
-				<ShoppingCart />
+				<ShoppingCart strokeWidth={1.2} />
 				Pesan
 			</a>
-			<!-- class="absolute top-0 right-1/2 -z-10 -mt-64 -ml-12 hidden w-screen min-w-6xl opacity-50 lg:block" -->
 
 			<img
 				src="/img/floral-1.png"

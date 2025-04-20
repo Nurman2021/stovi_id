@@ -21,7 +21,7 @@
 	class="relative border-t border-gray-200 bg-white px-8 py-10 md:py-16 lg:py-24 xl:px-0 xl:py-40"
 >
 	<div id="pricing" class="container mx-auto flex h-full max-w-6xl flex-col items-center">
-		<h2 class="my-5 text-base font-medium tracking-tight text-indigo-500 uppercase">
+		<h2 class="my-5 text-center text-base font-medium tracking-tight text-indigo-500 uppercase">
 			Silahkan klik tombol dibawah ini untuk melihat contoh
 		</h2>
 		<h3

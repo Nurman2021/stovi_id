@@ -110,11 +110,23 @@
 			class="ms:pl-10 relative z-50 flex h-full w-full flex-col items-end justify-center lg:w-1/2"
 		>
 			<div class="relative left-0 container w-full max-w-4xl lg:absolute lg:w-screen xl:max-w-6xl">
-				<img
-					src="https://ik.imagekit.io/nurman/hero.png?updatedAt=1744726077395"
-					alt="mockup"
-					class="mt-20 mb-20 ml-0 h-auto w-full lg:mt-24 lg:mb-0 lg:-ml-12 lg:h-full xl:mt-40"
-				/>
+				<!-- <picture>
+					<img
+						src="https://ik.imagekit.io/nurman/hero.png?updatedAt=1744726077395"
+						alt="mockup"
+						class="mt-20 mb-20 ml-0 h-auto w-full lg:mt-24 lg:mb-0 lg:-ml-12 lg:h-full xl:mt-40"
+					/>
+				</picture> -->
+				<picture>
+					<source media="(min-width:650px)" srcset="/img/hero.png" />
+					<source media="(min-width:465px)" srcset="img/hero-mobile.png" />
+					<img
+						src="https://ik.imagekit.io/nurman/hero.png?updatedAt=1744726077395"
+						alt="mockup"
+						class="mt-20 mb-20 ml-0 h-auto w-full lg:mt-24 lg:mb-0 lg:-ml-12 lg:h-full xl:mt-40"
+					/>
+					<!-- <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;"> -->
+				</picture>
 			</div>
 		</div>
 	</div>
