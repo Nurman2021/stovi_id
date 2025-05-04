@@ -16,7 +16,7 @@
 		class={`rounded-full px-4 py-2 font-medium ${activeCategory === 'all' ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
 		on:click={() => handleClick('all')}
 	>
-		All Products
+		Semua Tema
 	</button>
 
 	{#each categories as category}

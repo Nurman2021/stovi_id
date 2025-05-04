@@ -1,5 +1,19 @@
 <script>
 	import { ShoppingCart } from 'lucide-svelte';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		// Impor GSAP hanya di sisi klien
+		const { gsap } = await import('gsap');
+
+		// Animasi rotasi 360 derajat untuk gambar floral
+		gsap.to('#floral-image', {
+			rotation: 360, // Rotasi 360 derajat
+			duration: 10, // Durasi 5 detik
+			ease: 'linear',
+			repeat: -1 // Berulang tanpa henti (-1 = infinite)
+		});
+	});
 </script>
 
 <!-- Header Section -->
@@ -36,6 +50,7 @@
 
 			<img
 				src="/img/floral-1.png"
+				id="floral-image"
 				alt="header ilustration"
 				class="absolute top-0 -z-10 -mt-6 -ml-72 hidden w-screen min-w-3xl opacity-30 lg:block"
 			/>
